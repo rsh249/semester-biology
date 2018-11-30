@@ -3,17 +3,13 @@ layout: page
 title: Syllabus
 catalog: WIS 6934
 credits: 3
-semester: Fall 2018
-professor: Dr. Ethan White
-office: Room 1 in Building 150 (just north of Newins-Zeigler)
-email: ethanwhite@ufl.edu
-phone: 352-294-2081
-schedule: ['Tuesdays, 12:50-1:40', 'Fridays, 11:45-1:40']
-location: 219 Newins-Ziegler Hall
+semester: Summer 2019
+professor: Dr. Robert Harbert
+office: Shields 204
+email: rharbert@stonehill.edu
+phone: 508-565-1248
 office_hours: Monday 2-3:15
-office_hours_location: Newins-Zeigler 203
-TA: Andrew Marx
-TA_email: andrewjmarx@ufl.edu
+office_hours_location:  **Add zoom Link **
 ---
 
 ## {{ site.title }}
@@ -49,17 +45,6 @@ Phone: {{ page.phone }}
 Times: {{ page.office_hours }}
 
 Location: {{ page.office_hours_location }}
-
-Or by appointment. *Note: my schedule gets very busy during the semester so
-please try to schedule appointments as far in advance as possible. In general it
-will be very difficult to set up appointments less than 24 hours in advance.*
-
-
-### Course TA
-
-{{ page.TA }}
-
-Email: [{{ page.TA_email }}](mailto:{{ page.TA_email }})
 
 
 ### Website
