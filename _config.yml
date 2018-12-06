@@ -16,9 +16,9 @@ baseurl:          /semester-biology
 email:            datacarpentrysemester@weecology.org
 feedbackurl:      polleverywhere.com/multiple_choice_polls/KznOEBvSAnahmt7
 author:
-  name:           'Ethan White'
-  url:            https://twitter.com/ethanwhite
+  name:           'Dr. Robert Harbert'
+  url:            https://rsh249.github.io
 
 github:
-  repo:           https://github.com/datacarpentry/semester-biology
+  repo:           https://github.com/rsh249/semester-biology
   #               Be sure the 'Issues' feature is activated in 'Settings'

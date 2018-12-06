@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Syllabus
-catalog: WIS 6934
+catalog: BIO XVI
 credits: 3
 semester: Summer 2019
 professor: Dr. Robert Harbert
