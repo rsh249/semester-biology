@@ -9,7 +9,7 @@ office: Shields 204
 email: rharbert@stonehill.edu
 phone: 508-565-1248
 office_hours: Monday 2-3:15
-office_hours_location:  **Add zoom Link **
+office_hours_location:  eLearn Collaborate Portal
 ---
 
 ## {{ site.title }}
@@ -62,7 +62,9 @@ Email: [{{ page.email }}](mailto:{{ page.email }})
 
 ### Required Texts
 
-There is no required text book for this class.
+There is no required text book for this class. However, I recommend Hadley Wickham's
+R for Data Science which is available as a free eBook <a href= 'https://r4ds.had.co.nz/'> 
+here or for purchase on Amazon.
 
 
 ### Course Description
@@ -110,12 +112,9 @@ Students completing this course will be able to:
 
 ### How this course relates to the Student Learning Outcomes in Wildlife Ecology and Conservation
 
-This course contributes to the 'Quantitative Skills' and 'Conducting and
-Analyzing Independent/Original Research' Student Learning Outcomes specified in
-the
-[Ph.D. and MS in Wildlife Ecology and Conservation Academic Assessment Plans](http://assessment.aa.ufl.edu/Data/Sites/22/media/2013-14gaap/cals/2013-14-cals-wildlife-ecol-and-consvn-phd-aap.pdf),
-by providing students the skills and knowledge they need to manage and analyze
-the data used in research.
+This course contributes much needed content in quantitaive reasoning and data skills to the natural 
+science curriculum. Though designed for Biology students other science majors will benefit from 
+the material.
 
 
 ### Teaching Philosophy
@@ -147,10 +146,8 @@ minute demonstrations on the concepts followed by time to work on exercises.
 
 ### Attendance Policy
 
-Attendance will not be taken or factor into the grades for this class. However,
-experience suggests that students who regularly miss class struggle to learn the
-material.
-
+You must be *present* in this course through active participation in discussion forums, 
+timely completion of assignments, and communication with the instructor.
 
 ### Quiz/Exam Policy
 
@@ -169,9 +166,8 @@ if you fall behind. Reasonable requests for longer extensions will also be grant
 ### Assignment policy
 
 Assignments are due Monday night by 11:59 pm Eastern Time. Assignments should be
-submitted via Canvas. This allows you to be finished with one week's material
+submitted via eLearn. This allows you to be finished with one week's material
 before starting the next week's material.
-
 
 ### Course Technology
 
@@ -182,62 +178,10 @@ the installation of required software. If you don't have access to a laptop
 please contact the instructor and they will do their best to provide you with
 one.
 
-
-## UF Policies
-
-
-### University Policy on Accommodating Students with Disabilities
-
-Students requesting accommodation for disabilities must first register with the
-Dean of Students Office (http://www.dso.ufl.edu/drc/). The Dean of Students
-Office will provide documentation to the student who must then provide this
-documentation to the instructor when requesting accommodation. You must submit
-this documentation prior to submitting assignments or taking the quizzes or
-exams. Accommodations are not retroactive, therefore, students should contact
-the office as soon as possible in the term for which they are seeking
-accommodations.
-
-
-### University Policy on Academic Misconduct
-
-Academic honesty and integrity are fundamental values of the University
-community. Students should be sure that they understand the UF Student Honor
-Code at http://www.dso.ufl.edu/students.php.
-
-
 ### Netiquette and Communication Courtesy
 
 All members of the class are expected to follow rules of common
 courtesy in all email messages, threaded discussions and chats.
-
-
-## Getting Help
-
-For issues with technical difficulties for E-learning in Canvas, please contact the UF Help Desk at:
-
-* Learning-support@ufl.edu
-* (352) 392-HELP - select option 2
-* https://lss.at.ufl.edu/help.shtml
-
-Any requests for make-ups due to technical issues MUST be accompanied by the
-ticket number received from LSS when the problem was reported to them. The
-ticket number will document the time and date of the problem. You MUST e-mail
-your instructor within 24 hours of the technical difficulty if you wish to
-request a make-up.
-
-Other resources are available at http://www.distance.ufl.edu/getting-help for:
-
-* Counseling and Wellness resources
-* Disability resources
-* Resources for handling student concerns and complaints
-* Library Help Desk support
-
-Should you have any complaints with your experience in this course please visit
-http://www.distance.ufl.edu/student-complaints to submit a complaint.
-
-**Most importantly, if you are struggling for any reason please come talk to me
-and I will do my best to help.**
-
 
 ## Grading Policies
 
