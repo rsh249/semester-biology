@@ -95,18 +95,22 @@ head(data)
   * Options will be listed in RStudio if you press tab inside
       the `{r}` brackets at the top of the chunk
 
-<pre><code>```{r, message=FALSE}
+<pre><code>
+```{r, message=FALSE}
 library(dplyr)
 library(ggplot2)
-```</code></pre>
+```
+</code></pre>
 
 * `cache=TRUE` reuses results of the code chunk in subsequent "knits". Save time
 re-calculating or re-downloading it each time.
 
-<pre><code>```{r, cache=TRUE}
+<pre><code>
+```{r, cache=TRUE}
 data <- read.csv("https://ndownloader.figshare.com/files/2292172")
 head(data)
-```</code></pre>
+```
+</code></pre>
 
 * You can run code inside your text, too:
 
@@ -116,7 +120,8 @@ The data includes `r length(unique(data$species_id))` species.
 
 ### Analysis Example
 
-<pre><code>## Analysis
+<pre><code>
+## Analysis
 
 Get the time-series of counts for all species.
           
@@ -129,11 +134,13 @@ time_series <-
   na.omit()
 
 head(time_series)
-```</code></pre>
+```
+</code></pre>
 
 * `echo=FALSE` let's you show the results of the code chunk without showing the code.
 
-<pre><code>## Plot the time-series.
+<pre><code>
+## Plot the time-series.
 
 ```{r, message=FALSE, echo=FALSE, cache=TRUE}
 ggplot(time_series, aes(x = year, y = count)) +
@@ -141,16 +148,42 @@ ggplot(time_series, aes(x = year, y = count)) +
   geom_line() +
   geom_smooth() +
   facet_wrap(~species_id)
-```</pre></code>
+```
+</code></pre>
+
 
 ### Notebook
 
 * In RStudio run chunks using `Ctrl-Shift-Enter` or `Cmd-Shift-Enter`
 * Displays results in the editor
-
 * Notebook
-
 * `output: html_notebook` or File -> New File -> R Notebook
+* Resulting `.nb.html` file has interactive control of code blocks
+
+
+### Citations
+
+* Create a bibtex file with citations
+* Get bibtex entries from Google Scholar
+    * Search reference
+    * Click on `"`
+    * Select `Bibtex`
+    * Copy text
+    * Paste into `.bib` file
+* Add this file as the source for citations in the YAML
+
+```
+bibliography: bibliography.bib
+```
+
+* Cite papers
+
+```
+[@white2018]
+```
+
+* When you knit in-text citations will be formated and the full references will
+  be displayed at the bottom of the document.
 
 
 ### R Presentations
@@ -161,29 +194,41 @@ ggplot(time_series, aes(x = year, y = count)) +
 
 * Template `Rpres` file includes title page and sample code blocks.
 
-<pre><code>Untitled
+<pre><code>
+Untitled
 ========================================================
-author: 
+author: Ethan P. White
 date: 
 autosize: true
 
 
-First Slide
+Outline
 ========================================================
 
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- Show making slides in R
+- Include code on slides
+- Includes graphs on slides
 
 Slide With Code
 ========================================================
 
 ```{r}
-summary(cars)
-```</code></pre>
+data <- read.csv("https://ndownloader.figshare.com/files/2292172")
+```
+
+Histogram of Masses
+========================================================
+
+
+```{r, echo = FALSE}
+library(ggplot2)
+ggplot(data, aes(x = weight, color = species_id)) +
+geom_histogram()
+```
+</code></pre>
 
 * `Preview` in RStudio panel
 * Convert to `HTML`
     * `More` -> `View in Browser` or `Save As Web Page...`
+
+
