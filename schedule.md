@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Assignment Schedule
-assignments: ['Introduction to R and RStudio','Working with Data']
+assignments: ['Introduction to R and RStudio','Working with Data', 'Getting Data', 'Data Visualization', 'Working with Spatial Data',
+'Programming Fundamentals 1', 'Programming Fundamentals 2', 'Advanced Topics', 'Putting It All Together',
+'Knitr']
 ---
 
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)
