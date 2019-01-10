@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Syllabus
+title: Abridged Syllabus
 catalog: BIO XVI
 credits: 3
 semester: Summer 2019
@@ -11,6 +11,9 @@ phone: 508-565-1248
 office_hours: Monday 2-3:15
 office_hours_location:  eLearn Collaborate Portal
 ---
+
+*Note: For see eLearn site for official syllabus.
+
 
 ## {{ site.title }}
 
