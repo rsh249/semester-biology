@@ -1,13 +1,10 @@
 ---
 layout: page
 title: Assignment Schedule
-assignments: ['Data Entry and Storage', 'Introduction to R and RStudio',
-'Working with Data', 'Data Visualization', 'Working with Spatial Data',
-'Computational Projects', 'Programming Fundamentals 1',
-'Programming Fundamentals 2', 'Putting It All Together',
-'Version Control', 'Getting Data', 'Knitr',
-'Working with Databases', 'Student Chosen Topic', 'Student Chosen Topic',
-'Student Chosen Topic']
+assignments: ['SQL -- Data Entry and Storage', 'Introduction to R and RStudio',
+'Working with Data + Data Visualization', 'Git and RStudio: Project Planning + Version Control', 
+'Working with Spatial Data', 'Programming Fundamentals 1 + 2', 'Getting Data', 'Knitr', 
+'Putting It All Together']
 ---
 
 [Assignment submission & checklist]({{ site.baseurl }}/materials/turn-in-checklist)

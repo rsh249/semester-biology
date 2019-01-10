@@ -12,7 +12,7 @@ office_hours: Monday 2-3:15
 office_hours_location:  eLearn Collaborate Portal
 ---
 
-*Note: For see eLearn site for official syllabus.
+*Note: See eLearn site for official syllabus.
 
 
 ## {{ site.title }}
@@ -186,10 +186,9 @@ one.
 All members of the class are expected to follow rules of common
 courtesy in all email messages, threaded discussions and chats.
 
-## Grading Policies
+## Homework Grading Policies
 
-Grading for this course is based on 13 equally weighted assignments. One problem
-from each assignment (selected at the instructors discretion after the
+One problem from each assignment (selected at the instructors discretion after the
 assignments have been submitted) will receive a thorough code review and a
 detailed grade. Other problems will be graded as follows:
 
@@ -202,21 +201,6 @@ detailed grade. Other problems will be graded as follows:
 
 Independent projects may focus on databases, programming, or a combination or
 the two.
-
-### Grading scale
-
-- **A 93-100**
-- **A- 90-92**
-- **B+ 87-89**
-- **B 83-86**
-- **B- 80-82**
-- **C+ 77-79**
-- **C 73-76**
-- **C- 70-72**
-- **D+ 67-69**
-- **D 60-66**
-- **E <60**
-
 
 ## Course Schedule
 
