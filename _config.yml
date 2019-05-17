@@ -12,7 +12,7 @@ permalink:        pretty
 title:            R Programming for Biologists
 description:      'Teaching the tools to get computers to do cool science'
 url:              http://rsh249.github.io/semester-biology
-baseurl:          /semester-biology
+baseurl:          https://rsh249.github.io/semester-biology
 email:            rharbert@stonehill.edu
 
 author:
