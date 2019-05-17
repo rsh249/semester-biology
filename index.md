@@ -12,7 +12,7 @@ instructors, with the hopes that this will lead to better training and resources
 for everyone. 
 
 For Students
-: <a href="{{ site.baseurl}}/syllabus" target="_top"> Syllabus</a>
+: <a href="{{ site.baseurl}}/syllabus" target="_self"> Syllabus</a>
 : <a href="{{ site.baseurl}}/schedule">
   <i class="fa fa-calendar fa-fw"></i> Schedule</a>
 : <a href="{{ site.baseurl}}/computer-setup">
