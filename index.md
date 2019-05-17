@@ -13,27 +13,27 @@ for everyone.
 
 For Students
 : <a href="{{ site.baseurl}}/syllabus" target="_parent"> Syllabus</a>
-: <a href="{{ site.baseurl}}/schedule">
+: <a href="{{ site.baseurl}}/schedule" target="_parent">
   <i class="fa fa-calendar fa-fw"></i> Schedule</a>
-: <a href="{{ site.baseurl}}/computer-setup">
-  <i class="fa fa-download fa-fw"></i> Setup</a>
-: <a href="{{ site.baseurl }}/materials/turn-in-checklist">
+: <a href="{{ site.baseurl}}/computer-setup" target="_parent">
+  <i class="fa fa-download fa-fw" target="_parent"></i> Setup</a>
+: <a href="{{ site.baseurl }}/materials/turn-in-checklist" target="_parent">
   <i class="fa fa-check-square fa-fw"></i> Assignment Submission & Checklist</a>
-: <a href="{{ site.baseurl}}/START-for-self-guided-students">
-  <i class="fa fa-play-circle fa-fw"></i> Self-Guided Start-Up Guide</a>
-: <a href="{{ site.baseurl}}/materials/datasets">
+: <a href="{{ site.baseurl}}/START-for-self-guided-students" target="_parent">
+  <i class="fa fa-play-circle fa-fw"></i> Self-Guided Start-Up Guide </a>
+: <a href="{{ site.baseurl}}/materials/datasets" target="_parent">
   <i class="fa fa-download fa-fw"></i> Datasets</a>
 
 For Instructors
-: <a href="{{ site.baseurl}}/readings">
+: <a href="{{ site.baseurl}}/readings" target="_parent">
   <i class="fa fa-book fa-fw"></i> Readings</a>
-: <a href="{{ site.baseurl}}/lectures">
+: <a href="{{ site.baseurl}}/lectures" target="_parent">
   <i class="fa fa-comment fa-fw"></i> Lectures</a>
-: <a href="{{ site.baseurl}}/materials">
+: <a href="{{ site.baseurl}}/materials" target="_parent">
   <i class="fa fa-list-alt fa-fw"></i> Lecture Materials</a>
-: <a href="{{ site.baseurl}}/assignments">
+: <a href="{{ site.baseurl}}/assignments" target="_parent">
   <i class="fa fa-keyboard-o fa-fw"></i> Assignments</a>
-: <a href="{{ site.baseurl}}/exercises">
+: <a href="{{ site.baseurl}}/exercises" target="_parent">
   <i class="fa fa-magic fa-fw"></i> Exercises</a>
-: <a href="{{ site.baseurl}}/docs">
+: <a href="{{ site.baseurl}}/docs" target="_parent">
   <i class="fa fa-question-circle fa-fw"></i> Course Development Help</a>
