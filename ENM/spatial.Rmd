@@ -1,13 +1,17 @@
 ---
 title: "Spatial Data in R"
 author: "Prof. Harbert"
-date: "November 12, 2018"
-output: html_document
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    df_print: paged
+    toc: true
+    toc_float: true
+    toc_depth: 4
+  
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ## Installing necessary packages
 
@@ -18,10 +22,8 @@ install.packages('dismo')
 install.packages('raster')
 install.packages('spocc')
 install.packages('ENMeval')
+install.packages('mapr')
 
-#And maybe
-
-devtools::install_github('rsh249/vegdistmod')
 
 
 ```
@@ -74,6 +76,6 @@ plot(c2[[1]], col=topo.colors(99))
 ```
 
 
-# Next time: Vectors data, mining GBIF/iNaturalist, and ENMeval for distribution modeling.
+# Next time: Points data, mining GBIF/iNaturalist, and later ENMeval for distribution modeling.
 
-[Home](https://rsh249.github.io/bioinformatics)
+[NEXT >>](https://rsh249.github.io/semester-biology/ENM/primary_biodiv.html)
