@@ -167,4 +167,4 @@ Check out the [ENMeval](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1
 
 Using spocc and mapr. Create a leaflet map of a species of interest to you. Make sure you get at least 20 unique locations where an occurrence is recorded. Record all of your commands in an Rscript. Save your leaflet map as a webpage. Post the script and your map to GitHub (you may want to create a repository for this course on your account). When that is up post a link to your repository on Slack using the [biodiversity](https://programming4bio.slack.com/messages/CKEK5FLH2) channel. 
 
-[NEXT >>](https://rsh249.github.io/semester-biology/ENM/ENM_eval.html)
+[NEXT >>](https://rsh249.github.io/semester-biology/ENM/ENMeval.html)

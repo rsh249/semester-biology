@@ -1,7 +1,7 @@
 ---
 title: "ENMeval and Maxent for Species Distribution Modeling"
 author: "Prof. Harbert"
-date: format(Sys.time(), "%b %d, %Y")
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
   html_document:
     theme: united
@@ -97,19 +97,19 @@ Look at the eval@results object for more. Pay close attention to the AICc column
 eval@results
 ```
 
-For me the best model by AICc is #2: LQ_0.5
+For me the best model by minimizing AICc is #2: LQ_0.5
 
 ```{r}
 which(eval@results$AICc == min(eval@results$AICc))
 ```
 
-And the best model by avg.test.AUC is #7: L_2
+And the best model by maximizing avg.test.AUC is #7: L_2
 
 ```{r}
 which(eval@results$avg.test.AUC== max(eval@results$avg.test.AUC))
 ```
 
-I'm going to keep the AICc best model for the rest of this time but an argument could be made for either (or some other "best" model measure).
+I'm going to keep the minimum AICc best model for the rest of this time but an argument could be made for either.
 
 ```{r}
 best=which(eval@results$AICc == min(eval@results$AICc))
@@ -149,17 +149,28 @@ plot(eval@predictions[[best]] > thr$equal_sens_spec, col = c('lightgrey', 'black
 
 ```
 
-There are many possible ways to establish these kinds of maps. Here we work through one common approach but it will not work in every case.
+There are many possible ways to establish these kinds of maps. Here we worked through one common approach, but it will not work in every case.
+
+# Saving your plots:
+
+Previously we saw how ggplot can save plots as images. Since we are not operating in ggplot land for these maps we need to fall back and use base R graphics operations.
+
+To save a plot as an image I recommend:
+
+```{R}
+png('test_threshold.png')
+plot(eval@predictions[[best]] > thr$equal_sens_spec, col = c('lightgrey', 'black'))
+dev.off()
+```
+
+If your image does not look good, the resolution is poor, or the shape of the plot does not match your map there are parameters in the png() function that you can tweak to create a better looking image.
+
+# Assignment (PART 2)
+
+Create a potential distribution for your species. Record all commands in an R script and save plots as images. Post links to [#biodiversity](https://programming4bio.slack.com/messages/CKEK5FLH2)
+
+Post questions to the [#biodiversity](https://programming4bio.slack.com/messages/CKEK5FLH2) channel if you run into issues.
 
 
-
-# Homework
-
-Create a potential distribution for your species. Record all commands in an R script and save plots to your Git repository. Post links to [#biodiversity](https://bio200-bioinformatics.slack.com/messages/CE3344LE4)
-
-THEN, download future climate data for one modeling scenario (see ?getData). Crop to your region of interest and use the predict() function to predict your species' future distribution. Place current and future distributions into a Word document and write a ~300 word commentary on what the output suggests to you. Include the word doc in your Git repository too. Post questions to the [#biodiversity](https://bio200-bioinformatics.slack.com/messages/CE3344LE4) channel if you run into issues.
-
-You can add to your mapping repository from last time if you want.
-
-[Home](https://rsh249.github.io/bioinformatics/index.html)
+# Fin!
 
