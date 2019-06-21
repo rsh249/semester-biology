@@ -18,7 +18,7 @@ figure out how to make them work.
 
 ## What does a project involve
 
-Projects can involve programming, databases, or both. They should be on
+Projects can involve programming, data visualization and analytics, or all of the above. They should be on
 something you are excited about.
 
 As a rough guideline projects should represent ~30-40 hours of work. Some class
