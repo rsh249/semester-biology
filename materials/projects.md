@@ -21,13 +21,11 @@ figure out how to make them work.
 Projects can involve programming, data visualization and analytics, or all of the above. They should be on
 something you are excited about.
 
-As a rough guideline projects should represent ~30-40 hours of work. Some class
-time will be provided for working on projects.
+As a rough guideline projects should represent ~30-40 hours of work. Keep in mind that coding takes a lot of work and the projects will likely involve some code that is new to you. Some class time will be provided for working on projects and getting peer feedback.
 
 ### Project Proposal
 
-The course schedule should include a deadline for submitting project
-proposals (*Version Control Projects week*). 
+Proposals are DUE: June 25 by 11:59PM.
 
 These proposals should be no more than 1 page long and describe:
  
@@ -35,8 +33,6 @@ These proposals should be no more than 1 page long and describe:
    * what tools you are thinking about using, 
    * and any questions you have about how to best proceed.
 
-Submit the project proposal as directed by the [Project Proposal]({{ site.baseurl }}/exercises/Version-control-basic-project-proposal-R) 
-exercise.
 
 Your instructor should provide feedback on these proposals about whether the
 work is sufficient for the project, whether it is reasonable to accomplish it in
@@ -47,13 +43,9 @@ work is sufficient for the project, whether it is reasonable to accomplish it in
 1. The code and/or data involved in the project in your class project Github 
    repo.
 2. A 1-2 page description of what you did and how the resulting project
-   works as a `.txt` file in the your class project Github repo. 
+   works as a `.pdf` file in the your class project Github repo. 
    For example if the project is primarily based on code, how should the
-   instructor run the code and what is the expected output. If the project was
-   taking a bunch of poorly structured data, tidying it, and putting it in to a
-   database: describe what the original state of the data was; described the
-   tables in the new database and how the relate to one other; and provide an
-   example of a query that extracts useful information from the database.
+   instructor run the code and what is the expected output. *More on this later*
 
 ## Examples of previous projects
 
